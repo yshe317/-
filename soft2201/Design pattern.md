@@ -1,7 +1,18 @@
-# Strategy
+
+# 1. Behavioural Design Pattern
+## Strategy Pattern
 
 
-# Singleton
+## Memento Design Pattern
+
+
+# 2. Creational Design Pattern
+## Prototype
+
+
+
+
+## Singleton
 Ensure a class only has one instance,and provide global point of access to it.
 
 ##### Applicability
@@ -24,7 +35,34 @@ https://www.cnblogs.com/damsoft/p/6105122.html
 
 
 
-# Decorator
+
+
+# Structural Design Patterns
+## Façade Pattern
+Provides a unified interface to a set of interfaces in a subsystem.Defines ahigher-level interface that simplifies subsystem use.
+
+### Participants
+![[Pasted image 20201125231240.png]]
+
+##### Advantage
+- Simplify the usage of an existing subsystem by defining your own interface
+- Shields clients from subsystem components, reduce the number of objects that clients deal with and make the subsystem easier to use.
+- Promote weak coupling between the subsystem and the clients
+
+##### Disadvantage
+- Does not prevent applications from using subsystem classes if they need to. Choice between ease of use and flexibility.
+
+
+## Decorator
 Attach additional responsibilities to an object dynamically(flexible alternative to subclassing for extending functionality) 
+### Participants
+![[Pasted image 20201125230101.png]]
 
+##### Advantage
+- More flexibility and less complexity than static inheritance 
+- Avoids feature-laden (heavily loaded) classes high up in the hierarchy 
 
+##### Disadvantage
+- Decorator and its component are not identical 
+- Many little objects 
+![[Pasted image 20201125230807.png]]

@@ -1,3 +1,13 @@
+# week 1
+## Git
+it is a DVC
+
+Snapshots
+but not delta base.
+#### structure
+![[Pasted image 20201125195851.png]]
+
+
 ## Config
 to change "git commit" to "git cmt"
 `git config --global allias.<the new command> <origin command>`
