@@ -1,0 +1,6 @@
+# GRASP
+
+
+
+
+# SOLID
