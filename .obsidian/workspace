@@ -1,0 +1,100 @@
+{
+  "main": {
+    "id": "97b41c6515350e4f",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4b83746f0664f9f",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "soft2412/Git.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2394eafb2170ce7a",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee824fe44a05b81c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5836e623bfdb5a65",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "fbb6d59d526237b5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2b9dbb892b8c130b",
+    "type": "split",
+    "children": [
+      {
+        "id": "c52de37aa2b7952a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02d037cd24fa0ea5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "soft2412/Git.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "soft2412/Git.md",
+    "soft2412/GitHub.md",
+    "soft2412/Untitled.md",
+    "soft2201/OO principle.md",
+    "soft2201/Design pattern.md",
+    "soft2412/attach/Pasted image 20201125135253.png",
+    "soft2412/point.md",
+    "Pasted image 20201125134755.png",
+    "Pasted image 20201125134807.png",
+    "elec2104/courseNotes/04. Diode Models and Circuits.md"
+  ]
+}

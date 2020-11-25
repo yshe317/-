@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "44bea25f6bf70e76",
+    "type": "split",
+    "children": [
+      {
+        "id": "79f69f478476db6c",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "courseNotes/03.1 PN Junction.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7ef837737609ffc6",
+    "type": "split",
+    "children": [
+      {
+        "id": "11124a641ba6b746",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "140b4c8b8b5c8fbe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e2c623f0c920a04f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "98de55b869a6faa0",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f60256449f402ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "961699915021009d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "courseNotes/03.1 PN Junction.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "courseNotes/03.1 PN Junction.md",
+    "courseNotes/02.2 Drift Currents and Diffusion Currents.md",
+    "courseNotes/02.1 Solid State Physics.md",
+    "courseNotes/04. Diode Models and Circuits.md",
+    "preview/DC circuits/Capacitors and Inductors.md",
+    "tips/做题心得.md",
+    "tips/2. Semiconductor, Drift and Diffusion Current.md",
+    "tips/6. BJT.md"
+  ]
+}

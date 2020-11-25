@@ -1,0 +1,16 @@
+
+- [x] Ohm's law and kirchoff's law
+- [x] action of current and voltage sources
+- [x] network analysis and the superposition theorem
+- [x] Thevenin and Norton equivalent circuit
+- [x] inductors and capacitors
+- [ ] transient response of
+	- [ ] RC
+	- [ ] RL 
+	- [ ] RLC
+- [ ] ability to use power supplies
+- [ ] oscilloscopes
+- [ ] function generators
+- [ ] meters
+- [ ] ELVIS board
+- [x] basics of differential amplification with Op-Amps
