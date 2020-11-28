@@ -1,0 +1,7 @@
+- Types
+- Encapsulation
+- inheritance
+- Variable binding & Polymorphism
+- Virtual Dispatch
+- Abstract class 
+- interface
