@@ -1,8 +1,50 @@
 
+A pattern is a description of a problem and its solution
 # 1. Behavioural Design Pattern
+
 ## Strategy Pattern
+- Define a family of algorithms, encapsulate each one, and make them interchangeable
+- Let the algorithm vary independently from clients that use it 
+#### Applicability
+- Many related classes differ only in their behavior 
+- You  need  di fferent  vari ant  of   an  al gori thm 
+- An algorithm uses data that should be hidden from its clients 
+- A class defines many behaviors that appear as multiple statements in its operations 
+#### Structure
+![[Pasted image 20201128180230.png]]
+#### Participants
+![[Pasted image 20201128180300.png]]
+#### Advantage
+- Family of related algorithms (behaviors) for context to reuse 
+- Alternative to sub-classing 
+- Strategies eliminate conditional statements
+- Provide choice of different implementation of the same behavior  
+
+#### Disadvantage
+- Clients must be aware of different strategies  
+- Communicate overhead between Strategy and Context 
+- Increased number of objects in an application 
+
 
 ## State
+- Allow an object to change its behaviour when its internal state changes
+- The object will appear to change its class when the state changes
+#### Application
+- Any time you need to change behaviours dynamically, i.e., the state of an object drives its behavior and change its behavior dynamically at run-time
+- There are multi-part checks of an object’s state to determine its behaviour, i.e., operations have large, multipart conditional statements that depend on the object’s state
+
+#### Structure
+![[Pasted image 20201128182122.png]]
+#### Participant
+![[Pasted image 20201128182142.png]]
+#### Advantage
+- Removes case or if/else statements depending on state, and replaces them with function calls; makes the state transitions explicit; permits states to be shared
+- Localizes state-specific behaviour for different states
+- It makes state transition explicit
+- State objects can be shared
+#### Disadvantage
+- Does require that all the states have to have their own objects
+
 
 ## Observer
 week9
@@ -36,6 +78,49 @@ Might be expensive
 save and load
 
 # 2. Creational Design Pattern
+- Abstract the instantiation process
+- Make a system independent of how its objects are created, composed and represented
+- Provides flexibility in what gets created, who creates it, how it gets created and when
+## Factory Method 
+#### Applicability
+- a class cannnot anticipate the class objects it must create
+- A class wants its subclass to specify the objects it creates.
+- Classes responsibility to one of several helper subclasses, and you want to localize the knowledge of which helper subclass is the delegate 
+#### Structure
+![[Pasted image 20201128174305.png]]
+#### Participants
+![[Pasted image 20201128174323.png]]
+
+#### Advantage
+Flexibility: subclasses get a hook*for providing an extension to an object; connects parallel class hierarchies 
+#### Disadvantage
+Can require subclassing just to get an implementation 
+
+
+
+## Builder
+Separate the construction of a complex object from its representation so that the same construction process can create different representations
+#### Applicability
+- The algorithm for creating a complex object should be independent of the parts that make up the object and how they're assembled
+- The construction process must allow different representations for the object that's constructed
+#### Structure
+![[Pasted image 20201128175016.png]]
+
+#### Participants
+![[Pasted image 20201128175025.png]]
+
+#### advantage
+- Gives flexibility that can be extended by implementing new subclasses of the Builder, and isolates code of construction from implementation
+- Varying product's inter nal representation 
+	- do to change the product's internal representation is define a new kind of builder
+- Isolation of code construction and representation 
+	- Each ConcreteBuilder contains all the code to create and assemble a particular kind of product. 
+	- Different Directors can reuse it to build Product variants from the same set of parts
+- Finer control over the construction process 
+#### disadvantage
+Not completely generic, less useful in situations where variety of implementations is not high 
+
+
 
 ## Prototype
 WEEK 10

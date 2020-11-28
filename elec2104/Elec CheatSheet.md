@@ -89,3 +89,8 @@ Small signal
 ![[Pasted image 20201128123054.png]]
 voltage gain
 ![[Pasted image 20201128123305.png]]
+
+impedance
+Common- emmiter
+$R_{in} = R_b||R_{pi}$
+$R_{out} = R_c || R_o$

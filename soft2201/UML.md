@@ -50,7 +50,10 @@ week3
 
 
 
+the specific way is in week3 selfstudy ppt.
+
 ### communication Diagram
+
 
 
 ## OOD and OOA
