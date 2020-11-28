@@ -49,6 +49,10 @@ A pattern is a description of a problem and its solution
 ## Observer
 week9
 Define a one-to-many dependency between objects so that when one object changes state, all its dependentsare notified and updated automatically
+#### Applicability
+- An abstraction has two aspects, one dependent on the other
+- A change to one object requires changing others, and it’s not clear how many objects need to be changed 
+- An object should be able to notify other objects without making assumptions about who these objects are
 #### structure
 ![[Pasted image 20201126132720.png]]
 
@@ -204,6 +208,10 @@ Attach additional responsibilities to an object dynamically(flexible alternative
 ## Adapter
 week9
 Allow classes of incompatible interfaces to work together. Convert the interface of a class into another interface that clients expect.
+#### Applicability 
+- To use an existing class with an interface does not match the one you need
+- You want to create a reusabe class that cooperates with unrelated  or unforeseen classes, i.e., classes that don't necessarily have compatible interfaces
+- (Object adapter only)Adapt an existing interface, which has several existing implementations.
 #### structure
 ![[Pasted image 20201126114235.png]]
 #### participants
@@ -213,7 +221,7 @@ Allow classes of incompatible interfaces to work together. Convert the interface
 #### Disadvantage
 ![[Pasted image 20201126125438.png]]
 
-####Class Adapter
+#### Class Adapter
 Relies on class inheritance to achieve adapter
 ![[Pasted image 20201126130314.png]]
 

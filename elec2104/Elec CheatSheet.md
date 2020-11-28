@@ -83,6 +83,7 @@ $\frac{I_C}{I_E} = \alpha_F$
 $\beta_F = \frac{\alpha_F}{1-\alpha_F}$
 
 Early effect
+when $V_A != \infty$
 ![[Pasted image 20201127222411.png]]
 
 Small signal
@@ -92,5 +93,31 @@ voltage gain
 
 impedance
 Common- emmiter
-$R_{in} = R_b||R_{pi}$
+![[Pasted image 20201128214641.png]]
+$R_{in} = R_𝜋$
 $R_{out} = R_c || R_o$
+$A_V = -g_m*(R_{out})$
+Common-Base
+![[Pasted image 20201128214649.png]]
+$A_V = g_m*(R_{out})$
+$𝑅_{𝑖𝑛}=𝑟_𝜋$
+$R_{out} = R_c || R_o$
+Emitter-Follower
+![[Pasted image 20201128214655.png]]
+
+
+## MOSFET
+#### Cutoff
+$V_{GS} < V_{TN}$
+
+
+#### Linear (Triode region)
+$V_{GS} - V_{TN} >= V_{DS}$
+$I_d =μ_nC_{ox}{\frac{W}{L}}(V_{GS}-V_{TN})V_{DS}$
+#### saturation
+$V_{GS} - V_{TN} < V_{DS}$
+$I_d = {\frac{1}{2}}μ_nC_{ox}{\frac{W}{L}}(V_{GS}-V_{TN})^2$
+
+
+small signal
+$\lambda  != 0$

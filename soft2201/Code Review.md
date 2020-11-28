@@ -67,6 +67,7 @@ formal review
 
 
 ### Change List/Pull Request reviews
+semi formal
 - A complete, ‘working’ project exists
 - A set of changes are to be applied
 - The changes must be reviewed before they are accepted
@@ -81,8 +82,14 @@ formal review
 ## Design by Contract (DbC)
 
 
-
-
-## review challenges
+## review challenges 半正式碰到的问题
 - Size
 	- make many small changes will be more managable than a big change.
+- Scope
+	- Changes that affect many processes may need more reviewers for the required technical knowledge
+	- May sometimes be helped by multiple, smaller changelists
+
+
+
+## informal review
+![[Pasted image 20201129015548.png]]
